@@ -1,0 +1,25 @@
+{
+  "name": "nasa-project-api",
+  "version": "1.0.0",
+  "description": "Nasa Mission Controll Api",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "watch": "nodemon src/server.js",
+    "start": "node src/server.js"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "url": "^0.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
