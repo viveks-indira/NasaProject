@@ -45,6 +45,9 @@ function loadPlanetsData() {
 }
 
 const missionName = ["A", "B", "C", "D", "E"];
+function getAllPlanets(){
+  return habitablePlanets;
+}
 
 export const planets = habitablePlanets;
-export { loadPlanetsData, missionName };
+export { loadPlanetsData, getAllPlanets };
