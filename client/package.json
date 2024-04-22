@@ -13,7 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "watch": "nodemon src/server.js",
-    "build": "set BUILD_PATH=../server/public && react-scripts build",
+    "build": "cross-env BUILD_PATH=../server/public react-scripts build",
     "test": "react-scripts test --passWithNoTests"
   },
   "eslintConfig": {
