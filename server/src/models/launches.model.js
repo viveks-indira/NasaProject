@@ -4,18 +4,6 @@ import planets from "./planets.mongo.js";
 
 const DEFAULT_FLIGHT_NUMBER = 100;
 
-let launch = {
-  flightNumber: 100, //flight_number
-  mission: "Kepler Exploration x", //name
-  rocket: "Explorer Is1", //rocket.name
-  launchDate: new Date("December 27, 2030"), //date_local
-  target: "Kepler-442 b", //not applicable
-  customers: ["ZTM", "NASA"], //pauloads.customers
-  upcoming: true, //upcoming
-  success: true, //success
-};
-
-saveLaunch(launch);
 
 const space_x_url = "https://api.spacexdata.com/v4/launches/query";
 

@@ -5,7 +5,7 @@ import {
   scheduleNewLaunch,
 } from '../models/launches.model.js';
 
-import {getPagination} from '../services/query.js'
+import { getPagination } from '../services/query.js'
 
 async function httpGetAllLaunches(req, res) {
   const {skip,limit }=await getPagination(req.query);

@@ -38,14 +38,10 @@ function loadPlanetsData() {
         reject(err);
       })
       .on("end", async () => {
-        const countPlanetsFound=( await getAllPlanets()).length;
-       // console.log(`The length of the array ${countPlanetsFound} .`);
         resolve();
       });
   });
 }
-
-
 
 async function getAllPlanets(){
   return await planets.find({},{
