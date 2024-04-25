@@ -26,7 +26,8 @@
     "mongoose": "^8.3.1",
     "morgan": "^1.10.0",
     "server": "^1.0.39",
-    "supertest": "^6.3.4"
+    "supertest": "^6.3.4",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",

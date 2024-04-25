@@ -1,6 +1,5 @@
 {
   "name": "nasa-project-api",
-  
   "version": "1.0.0",
   "description": "Nasa Mission Controll Api",
   "main": "server.js",
@@ -11,7 +10,6 @@
     "watch": "nodemon src/server.js",
     "start": "node src/server.js"
   },
-   
   "author": "",
   "license": "ISC",
   "dependencies": {
