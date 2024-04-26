@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",       
   "scripts": {
     "install-server": "npm install --prefix server",
     "install-client": "npm install --prefix client",
