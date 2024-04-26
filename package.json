@@ -1,13 +1,13 @@
 {
-  "name": "nasaproject",
+  "name": "nasa",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
+  "type": "module",       
   "scripts": {
     "install-server": "npm install --prefix server",
     "install-client": "npm install --prefix client",
-    "install": "npm run install-server && npm run install-client",
+    "vivek": "npm run install-server && npm run install-client",
     "server": "npm run watch --prefix server",
     "client": "npm run watch --prefix client",
     "watch": "concurrently \"npm run server\" \"npm run client\"",
@@ -25,9 +25,8 @@
     "dotenv": "^16.4.5",
     "mongoose": "^8.3.1",
     "morgan": "^1.10.0",
-    "server": "^1.0.39",
-    "supertest": "^6.3.4",
-    "uuid": "^9.0.1"
+    "server": "^1.0.37",
+    "supertest": "^7.0.0"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
